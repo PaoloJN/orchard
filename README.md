@@ -1,14 +1,14 @@
-# Orchard — the app store for CraftOS
+# Orchard — app store for CraftOS
 
 An in-game client for [PineStore](https://pinestore.cc), the community catalog of
 ComputerCraft / CC:Tweaked programs. Browse 150+ community apps, search them, and
 **install with one keypress** — no copy-pasting `wget` URLs. Everything lands in a
 single `/apps` folder and is runnable by name.
 
+![Orchard demo](assets/demo.gif)
+
 Orchard doesn't host a registry of its own. It rides PineStore's existing,
 populated catalog and public API, so there's real content from the first launch.
-
-![Orchard demo](assets/demo.gif)
 
 ## Install
 
@@ -39,16 +39,16 @@ Before the first reboot you can still run it as `orchard/orchard`.
 
 ### Interactive store
 
-| Key            | Action                                    |
-|----------------|-------------------------------------------|
-| type           | live-filter the catalog                   |
-| `↑ ↓` / `PgUp/PgDn` | move                                 |
-| `Enter`        | open a project's page                     |
-| `I`            | install (asks to confirm)                 |
-| `R`            | remove (on installed projects)            |
-| `B` / `Bksp`   | go back (on a project page)               |
-| `Tab`          | your installed apps                       |
-| `Bksp`         | delete a search char; quit when empty     |
+| Key                 | Action                                |
+| ------------------- | ------------------------------------- |
+| type                | live-filter the catalog               |
+| `↑ ↓` / `PgUp/PgDn` | move                                  |
+| `Enter`             | open a project's page                 |
+| `I`                 | install (asks to confirm)             |
+| `R`                 | remove (on installed projects)        |
+| `B` / `Bksp`        | go back (on a project page)           |
+| `Tab`               | your installed apps                   |
+| `Bksp`              | delete a search char; quit when empty |
 
 > This build of CraftOS-PC doesn't map the `Esc` key (`keys.escape` is nil), so
 > Orchard uses **Backspace** to go back / quit.
