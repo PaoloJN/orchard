@@ -1,0 +1,11 @@
+{
+  {
+    installed_at = 1781252248460,
+    target_file = "fireworks.lua",
+    id = 50,
+    install_command = "pastebin get akuix50p fireworks.lua",
+    name = "Fireworks 3D",
+    install_dir = "/apps",
+    path = "apps/fireworks.lua",
+  },
+}
